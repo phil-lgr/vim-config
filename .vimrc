@@ -28,4 +28,5 @@ nnoremap gV `[v`]
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
 call plug#end()
